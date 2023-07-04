@@ -1,3 +1,7 @@
+# Job Portal Application
+
+The application has REST and GraphQL API end points
+
 ## Get Started
 
 1. create .env file based on the config specified below
