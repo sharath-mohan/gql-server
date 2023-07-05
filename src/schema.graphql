@@ -1,0 +1,24 @@
+type Query {
+  """
+  list of  jobs
+  """
+  jobs: [Job!]
+}
+# regular comments
+type Job {
+  id: ID!
+  job_title: String!
+  """
+  foreign key
+  """
+  companyId: Int
+  description: String
+  createdAt: String
+  company: Company!
+}
+
+type Company {
+  id: ID!
+  company_name: String!
+  description: String
+}
